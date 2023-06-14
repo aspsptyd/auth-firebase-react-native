@@ -1,0 +1,136 @@
+'DATAUSER: ', {
+   _auth:
+   {
+      _app:
+      {
+         _name: '[DEFAULT]',
+         _deleted: false,
+         _deleteApp: [Function: bound deleteApp],
+         _options:
+         {
+            appId: '1:748894425631:ios:91cb26f744d1eaf0ed7b2a',
+            messagingSenderId: '748894425631',
+            clientId: '748894425631-s86akep9656qce2vli1be0bn9caadfja.apps.googleusercontent.com',
+            apiKey: 'AIzaSyD0FfXnC0qFCnUGzDBC_-2VU1D_dLVZPNk',
+            projectId: 'react-native-apps-49326',
+            storageBucket: 'react-native-apps-49326.appspot.com'
+         },
+         _automaticDataCollectionEnabled: true,
+         _initialized: true,
+         _nativeInitialized: true
+      },
+      _nativeModule:
+      {
+         fetchSignInMethodsForEmail: [Function],
+         setLanguageCode: [Function],
+         setTenantId: [Function],
+         useDeviceLanguage: [Function],
+         verifyPasswordResetCode: [Function],
+         useEmulator: [Function],
+         addAuthStateListener: [Function],
+         removeAuthStateListener: [Function],
+         addIdTokenListener: [Function],
+         removeIdTokenListener: [Function],
+         setAppVerificationDisabledForTesting: [Function],
+         useUserAccessGroup: [Function],
+         signOut: [Function],
+         signInAnonymously: [Function],
+         signInWithEmailAndPassword: [Function],
+         signInWithEmailLink: [Function],
+         createUserWithEmailAndPassword: [Function],
+         delete: [Function],
+         reload: [Function],
+         sendEmailVerification: [Function],
+         verifyBeforeUpdateEmail: [Function],
+         updateEmail: [Function],
+         updatePassword: [Function],
+         updatePhoneNumber: [Function],
+         updateProfile: [Function],
+         getIdToken: [Function],
+         getIdTokenResult: [Function],
+         signInWithCredential: [Function],
+         confirmPasswordReset: [Function],
+         applyActionCode: [Function],
+         checkActionCode: [Function],
+         sendPasswordResetEmail: [Function],
+         sendSignInLinkToEmail: [Function],
+         signInWithCustomToken: [Function],
+         signInWithPhoneNumber: [Function],
+         verifyPhoneNumberWithMultiFactorInfo: [Function],
+         verifyPhoneNumberForMultiFactor: [Function],
+         resolveMultiFactorSignIn: [Function],
+         getSession: [Function],
+         finalizeMultiFactorEnrollment: [Function],
+         verifyPhoneNumber: [Function],
+         confirmationResultConfirm: [Function],
+         linkWithCredential: [Function],
+         unlink: [Function],
+         reauthenticateWithCredential: [Function],
+         APP_LANGUAGE: {},
+         APP_USER: {},
+         getConstants: [Function]
+      },
+      _customUrlOrRegion: undefined,
+      _config:
+      {
+         statics:
+         {
+            AppleAuthProvider: [Function: AppleAuthProvider],
+            EmailAuthProvider: [Function: EmailAuthProvider],
+            PhoneAuthProvider: [Function: PhoneAuthProvider],
+            GoogleAuthProvider: [Function: GoogleAuthProvider],
+            GithubAuthProvider: [Function: GithubAuthProvider],
+            TwitterAuthProvider: [Function: TwitterAuthProvider],
+            FacebookAuthProvider: [Function: FacebookAuthProvider],
+            PhoneMultiFactorGenerator: { [Function: PhoneMultiFactorGenerator]FACTOR_ID: 'phone' },
+            OAuthProvider: [Function: OAuthProvider],
+            OIDCAuthProvider: [Function: OIDCAuthProvider],
+            PhoneAuthState:
+            {
+               CODE_SENT: 'sent',
+               AUTO_VERIFY_TIMEOUT: 'timeout',
+               AUTO_VERIFIED: 'verified',
+               ERROR: 'error'
+            },
+            getMultiFactorResolver: [Function: getMultiFactorResolver],
+            multiFactor: [Function: multiFactor]
+         },
+         version: '18.0.0',
+         namespace: 'auth',
+         nativeModuleName: 'RNFBAuthModule',
+         nativeEvents:
+            ['auth_state_changed',
+               'auth_id_token_changed',
+               'phone_auth_state_changed'],
+         hasMultiAppSupport: true,
+         hasCustomUrlOrRegionSupport: false,
+         ModuleClass: [Function: FirebaseAuthModule]
+      },
+      _user: [Circular],
+      _settings: null,
+      _authResult: true,
+      _languageCode: undefined,
+      _tenantId: null
+   },
+   _user:
+   {
+      displayName: null,
+      multiFactor: { enrolledFactors: [] },
+      isAnonymous: false,
+      emailVerified: false,
+      providerData:
+         [{
+            providerId: 'password',
+            uid: 'devadiroot@gmail.com',
+            email: 'devadiroot@gmail.com'
+         }],
+      uid: 'X46vRIFkqmNSJJcGKeeeybMokx42',
+      email: 'devadiroot@gmail.com',
+      refreshToken: 'APZUo0SFMgKe9Yc061542QidjjHnP-2rnFOti2p2_oWL3vdaTw28KuM2ilSkLxlMlO5KdWskFzLBofBgjnCj82PmUD7CCOpLEOXW836D4Ij3w-D_ll5HV0i1j02RHAUGRU9AQZGIArTLarDv84JuuAZo0SdfKmELRhnEMiOn9PSaJU7qOtYeLDsOAw89pgPHbp1m-zErn90nVv9e8n9Mkt6wBIKSqakZp8ZC4TIFhr2Te2xqPFKwLkw',
+      tenantId: null,
+      phoneNumber: null,
+      photoURL: null,
+      metadata: { creationTime: 1686723097719, lastSignInTime: 1686724042104 },
+      providerId: 'firebase'
+   }
+}
