@@ -23,6 +23,9 @@ const App = () => {
     });
   }, []);
 
+  /**
+   * Register with Login
+   * */
   const handleSignUpAccountEmail = () => {
     auth()
       .createUserWithEmailAndPassword('devadiroot@gmail.com', '!!&21adi')
@@ -42,6 +45,9 @@ const App = () => {
       });
   };
 
+  /**
+   * Sign In Only
+   * */
   const handleSignInAccountEmail = () => {
     auth()
       .signInWithEmailAndPassword('devadiroot@gmail.com', '!!&21adi')
@@ -61,6 +67,9 @@ const App = () => {
       });
   };
 
+  /**
+   * Sign Out
+   * */
   const handleSignOutAccountEmail = () => {
     auth()
       .signOut()
